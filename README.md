@@ -10,6 +10,9 @@ Example for real-time communication with ABB industrial robots.
 
 This program shows how to dynamically handle disconnections: you can close and restart the client or server at any time, and `Server_TCPIP.mod` should be able to reconnect without throwing any errors.
 
+![](https://github.com/madelinegannon/abb_tcpip_server/blob/main/assets/server_tcpip_flex_pendant.gif)
+
+
 ### Changing the Robot's IP Address
 You can update the `SERVER_IP` address to match your robot's IP address on line 8:
 

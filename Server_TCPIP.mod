@@ -1,4 +1,4 @@
-MODULE Test_TCPIP
+MODULE Server_TCPIP
     VAR socketdev server_socket;
     VAR socketdev client_socket;
     VAR string client_ip;

@@ -9,11 +9,7 @@ MODULE Server_TCPIP
     LOCAL CONST num PORT:=1025;
 
     PROC main()
-        ConfJ\Off;
-        ConfL\Off;
-
         RestartServer;
-
         WHILE TRUE DO
             ReceiveCommand;
         ENDWHILE

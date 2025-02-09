@@ -5,7 +5,7 @@ Example for real-time communication with ABB industrial robots.
 This example requires the free RobotWare option `PC-Interface 616-1` to be installed. 
 
 ### Limitations
-This TCP/IP method can only send and receive ~4-5 commands per second. Faster realtime communication (e.g., 250 commands per second), requires use the paid RobotWare option `Externally Guided Motion 689-1`. 
+This TCP/IP method can only send and receive ~4-5 commands per second, so it's ideal for exchanging state changes, flags, I/O, etc., and not for streaming poses. For faster realtime communication, use the paid RobotWare option `Externally Guided Motion 689-1` which allows up to 250 commands per second.
 
 ## Running the Example
 `Server_TCPIP.mod` demonstrates how an ABB robot can listen for incoming messages from a PC connected via ethernet.
